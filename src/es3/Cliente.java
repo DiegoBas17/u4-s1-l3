@@ -38,4 +38,15 @@ public class Cliente {
     public String getEmail() {
         return email;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "codiceCliente=" + codiceCliente +
+                ", nome='" + nome + '\'' +
+                ", cognome='" + cognome + '\'' +
+                ", email='" + email + '\'' +
+                ", dataIscrizione=" + dataIscrizione +
+                '}';
+    }
 }

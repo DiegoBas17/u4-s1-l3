@@ -6,7 +6,7 @@ public class Main {
         Articolo articolo1 = new Articolo("ad520", "gamba", 50, 1);
         Carrello carrello = new Carrello(cliente1.getCodiceCliente());
         carrello.aggiungiArticolo(articolo1);
-        System.out.println(articolo1);
+        System.out.println(cliente1);
         System.out.println(carrello.getElencoArticoli());
     }
 }
