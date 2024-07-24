@@ -25,6 +25,14 @@ public class Rettangolo {
     }
 
     public String stampaDueRettangoli(Rettangolo rettangolo1, Rettangolo rettangolo2) {
-        return "La somma dei perimetri dei due rettangoli è: " + (rettangolo1.getPerimetro() + rettangolo2.getPerimetro()) + ". La somma delle aree dei due rettangoli invece è: " + (rettangolo1.getArea() + rettangolo2.getArea()) + ".";
+        return "il perimetro del primo rettangolo è: " + rettangolo1.getPerimetro() + ". L'area del primo rettangolo invece è: " + rettangolo1.getArea() + "." + " Il perimetro del secondo rettangolo è: " + rettangolo2.getPerimetro() + ". L'area del secondo rettangolo invece è: " + rettangolo2.getArea() + "." + "La somma dei perimetri dei due rettangoli è: " + (rettangolo1.getPerimetro() + rettangolo2.getPerimetro()) + ". La somma delle aree dei due rettangoli invece è: " + (rettangolo1.getArea() + rettangolo2.getArea()) + ".";
+    }
+
+    public double getBase() {
+        return base;
+    }
+
+    public double getAltezza() {
+        return altezza;
     }
 }
