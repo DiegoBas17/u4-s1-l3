@@ -15,6 +15,38 @@ public class Articolo {
         this.prezzo = prezzo;
     }
 
+    public String getCodiceArticolo() {
+        return codiceArticolo;
+    }
+
+    public void setCodiceArticolo(String codiceArticolo) {
+        this.codiceArticolo = codiceArticolo;
+    }
+
+    public int getNumeriPzDisponibili() {
+        return numeriPzDisponibili;
+    }
+
+    public void setNumeriPzDisponibili(int numeriPzDisponibili) {
+        this.numeriPzDisponibili = numeriPzDisponibili;
+    }
+
+    public int getPrezzo() {
+        return prezzo;
+    }
+
+    public void setPrezzo(int prezzo) {
+        this.prezzo = prezzo;
+    }
+
+    public String getDescrizioneArticolo() {
+        return descrizioneArticolo;
+    }
+
+    public void setDescrizioneArticolo(String descrizioneArticolo) {
+        this.descrizioneArticolo = descrizioneArticolo;
+    }
+
     @Override
     public String toString() {
         return "Articolo{" +

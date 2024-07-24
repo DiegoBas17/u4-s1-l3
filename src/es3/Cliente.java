@@ -18,4 +18,24 @@ public class Cliente {
         this.email = email;
         this.dataIscrizione = LocalDateTime.now();
     }
+
+    public int getCodiceCliente() {
+        return codiceCliente;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getCognome() {
+        return cognome;
+    }
+
+    public LocalDateTime getDataIscrizione() {
+        return dataIscrizione;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 }
