@@ -2,8 +2,8 @@ package es1;
 
 public class Rettangolo {
     /*ATTRIBUTI*/
-    public double altezza;
-    public double base;
+    private double altezza;
+    private double base;
 
     /*COSTRUTTI*/
     public Rettangolo(double altezza, double base) {
