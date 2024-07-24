@@ -7,10 +7,10 @@ public class Sim {
     private Chiamata[] chiamate;
 
     /*COSTRUTTI*/
-    public Sim(String numeroCellulare, int creditoDisponibile) {
+    public Sim(String numeroCellulare, int creditoDisponibile, Chiamata chiamate) {
         this.numeroCellulare = numeroCellulare;
         this.creditoDisponibile = creditoDisponibile;
-        this.chiamate = new Chiamata[5];
+        this.chiamate = new Chiamata[]{chiamate};
     }
 
     /*METODI*/
